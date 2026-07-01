@@ -215,7 +215,7 @@ body {
 .present {
   position: relative;
   width: min(64vw, 300px);
-  height: min(78vw, 360px);
+  height: min(84vw, 390px);
   transform: translateY(-140vh);
 }
 
@@ -278,25 +278,35 @@ body {
 .cat-wrap {
   position: absolute;
   left: 50%;
-  bottom: 6%;
-  width: 80%;
+  bottom: 14%;
+  width: 88%;
   z-index: 1;
-  transform: translate(-50%, 50px) scale(0.75);
+  transform: translate(-50%, 90px) scale(0.4);
   opacity: 0;
+  transform-origin: bottom center;
 }
 
 .cat-wrap.rise {
-  animation: catRise 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  animation: catRise 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 @keyframes catRise {
   0% {
-    transform: translate(-50%, 60px) scale(0.7);
+    transform: translate(-50%, 95px) scale(0.35);
     opacity: 0;
   }
-  60% {
-    transform: translate(-50%, -10px) scale(1.06);
+  15% {
     opacity: 1;
+  }
+  45% {
+    transform: translate(-50%, -22px) scale(1.12);
+    opacity: 1;
+  }
+  65% {
+    transform: translate(-50%, 8px) scale(0.96);
+  }
+  85% {
+    transform: translate(-50%, -5px) scale(1.03);
   }
   100% {
     transform: translate(-50%, 0) scale(1);
@@ -314,7 +324,7 @@ body {
 .paw-heart {
   position: absolute;
   left: 50%;
-  bottom: 35%;
+  bottom: 40%;
   transform: translate(-50%, 10px) scale(0);
   font-size: clamp(46px, 16vw, 88px);
   z-index: 3;
@@ -358,7 +368,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 46%;
+  height: 62%;
   z-index: 2;
   background: linear-gradient(135deg, #ff5878, #c81749);
   border-radius: 8px 8px 16px 16px;
@@ -391,8 +401,8 @@ body {
   position: absolute;
   left: -6%;
   right: -6%;
-  top: -4%;
-  height: 60%;
+  top: -3%;
+  height: 44%;
   z-index: 4;
   transform-origin: bottom center;
 }
