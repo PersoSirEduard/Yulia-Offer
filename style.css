@@ -278,7 +278,7 @@ body {
 .cat-wrap {
   position: absolute;
   left: 50%;
-  bottom: 26%;
+  bottom: 34%;
   width: 82%;
   z-index: 1;
   transform: translate(-50%, 90px) scale(0.4);
@@ -324,7 +324,7 @@ body {
 .paw-heart {
   position: absolute;
   left: 50%;
-  bottom: 46%;
+  bottom: 51%;
   transform: translate(-50%, 10px) scale(0);
   font-size: clamp(46px, 16vw, 88px);
   z-index: 3;
