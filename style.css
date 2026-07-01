@@ -215,7 +215,7 @@ body {
 .present {
   position: relative;
   width: min(64vw, 300px);
-  height: min(70vw, 330px);
+  height: min(78vw, 360px);
   transform: translateY(-140vh);
 }
 
@@ -278,8 +278,8 @@ body {
 .cat-wrap {
   position: absolute;
   left: 50%;
-  bottom: 0%;
-  width: 72%;
+  bottom: 6%;
+  width: 80%;
   z-index: 1;
   transform: translate(-50%, 50px) scale(0.75);
   opacity: 0;
@@ -314,7 +314,7 @@ body {
 .paw-heart {
   position: absolute;
   left: 50%;
-  bottom: 22%;
+  bottom: 35%;
   transform: translate(-50%, 10px) scale(0);
   font-size: clamp(46px, 16vw, 88px);
   z-index: 3;
@@ -358,7 +358,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 26%;
+  height: 46%;
   z-index: 2;
   background: linear-gradient(135deg, #ff5878, #c81749);
   border-radius: 8px 8px 16px 16px;
@@ -371,7 +371,7 @@ body {
   left: 5%;
   right: 5%;
   top: 0;
-  height: 26%;
+  height: 16%;
   background: linear-gradient(180deg, rgba(60, 0, 20, 0.4), rgba(60, 0, 20, 0));
   border-radius: 6px 6px 0 0;
   pointer-events: none;
@@ -391,8 +391,8 @@ body {
   position: absolute;
   left: -6%;
   right: -6%;
-  top: -6%;
-  height: 82%;
+  top: -4%;
+  height: 60%;
   z-index: 4;
   transform-origin: bottom center;
 }
