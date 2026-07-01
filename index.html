@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#ff8fab">
+<title>for miss 🩷</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐱</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="hearts-bg" aria-hidden="true"></div>
+
+  <main id="app">
+
+    <section id="question-screen" class="screen">
+      <div class="question-card">
+        <h1 id="question-title">Do you want to play with me this evening?</h1>
+        <div class="answer-row">
+          <button id="yesBtn" class="btn yes-btn" type="button">Yes 💕</button>
+          <button id="noBtn" class="btn no-btn" type="button">No</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="reveal-screen" class="screen hidden">
+      <div class="scene" id="scene">
+
+        <p class="for-miss" id="forMiss">for miss</p>
+
+        <div class="present" id="present">
+          <div class="box-shadow"></div>
+
+          <div class="box-back">
+            <div class="ribbon-v back-ribbon"></div>
+          </div>
+
+          <div class="cat-wrap" id="catWrap">
+            <img src="assets/cat.svg" alt="cute fluffy cat" id="catImg" class="cat-img" draggable="false">
+          </div>
+
+          <div class="box-front">
+            <div class="ribbon-v"></div>
+          </div>
+
+          <span class="paw-heart" id="pawHeart" aria-hidden="true">🫶</span>
+
+          <div class="box-lid" id="boxLid">
+            <div class="lid-top">
+              <div class="ribbon-v"></div>
+              <div class="bow">
+                <span class="bow-loop left"></span>
+                <span class="bow-loop right"></span>
+                <span class="bow-knot"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
